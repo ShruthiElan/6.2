@@ -1,0 +1,39 @@
+1.Need of MapReduce program in Pig Programming.
+Hadoop is a java based framework. The pig queries written by us are converted into mapreduce programs internally. Pig statements are like SQL queries which is needed to be converted to mapreduce jobs to be executed in hadoop. Hence Mapreduce program is necessary in Pig programming.
+
+2.Advantages of Pig over MapReduce
+
+MapReduce are Java programs that must be in terms of mapper and reducer but Pig is like SQL Queries with simple syntax which make them easier to think and write.
+The number of lines in a Pig Script is comparatively very much lesser than that of complex map reduce programs.
+Pig provides higher level of abstraction whereas Hadoop MapReduce provides low level of abstraction.
+When using Pig for executing jobs, Hadoop developers need not worry about any version mismatch.
+
+3.Pig engine and its importance
+
+Pig engine is the one that acts as an interpreter between Pig Latin and MapReduce jobs.
+It creates an environment to execute Pig scripts into a series of MapReduce jobs in a parale manner.
+
+4.modes of Pig execution
+
+Local mode: The pig script is executed in the local unix path. The input file is in the Localfile system.
+MapReduce mode: The pig Script is executed in the Hadoop cluster. The input and output paths are the HDFS.
+
+5.Grunt Shell in Pig
+
+Grunt shell is an interactive shell in which we can execute the pig commands directly rather than as a Script file. 
+There are certain useful shell and utility commands provided by the Grunt shell
+
+6.features of Pig Latin language
+
+The Pig Latin is automatically converted to Mapreduce jobs by the execution engine.
+It has support to process huge amounts of data.
+It has many built-in operators and also supports the creation of user defined functions in other programming languages 
+and invoke in pig scripts.
+
+7. Is Pig Latin commands case sensitive?
+The names of relations,fields and pig latin functions are case sensitive and the names of parameters and all other pig 
+latin keywords are case insensitive.
+
+8.data flow language
+
+A data flow language is one which can be represented as a directed graph with a specific flow of data through the program. 
